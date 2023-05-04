@@ -653,7 +653,7 @@ input[type=color] {
 }
 
 .breadcrumb__area {
-  padding: 200px 0;
+  padding:150px 0;
 }
 .breadcrumb__overlay {
   position: relative;
@@ -674,10 +674,13 @@ input[type=color] {
 .tp-breadcrumb__title {
   color: var(--tp-common-white);
   font-weight: 400;
-  font-size: 55px;
-  text-transform: uppercase;
+  font-size: 40px;
+/*  text-transform: uppercase;*/
   line-height: 1.2;
   margin-bottom: 0;
+  background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 15px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-breadcrumb__title {
