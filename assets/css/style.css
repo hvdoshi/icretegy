@@ -837,9 +837,10 @@ input[type=color] {
 }
 
 .nav-info {
-  font-size: 18px;
-  color: var(--tp-text-2);
+  font-size: 16px;
+/*  color: var(--tp-text-2);*/
 }
+
 @media (max-width: 767px) {
   .nav-info br {
     display: none;
